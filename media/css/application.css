@@ -1,0 +1,91 @@
+/*
+    Name: Base Stylesheet
+    Description: Sitio oficial de Sociedad Uruguaya de Psicología del deporte (supde) Asociación Civil
+    Author: Ignacio Lopez Juani
+    Author URI: www.lopezjuani.com
+*/
+
+/* Imports */
+@import url("html5-reset.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic,400);
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #333;
+}
+a {
+  text-decoration: none;
+}
+section h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size:60px;
+  letter-spacing: -0.05em;
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.8),
+    0 -1px 0 rgba(255, 255, 255, 1.0);
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header*/
+.main-header {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main-header h1,
+.main-header ul,
+.main-header ul li {
+  display: inline-block;
+}
+
+
+
+/* Intro */
+#intro {
+  background: transparent url(../images/honey-bg.jpg) top left repeat;
+}
+#intro img {
+  height: 256px;
+  width: 256px;
+  margin: 30px auto;
+  border-radius: 50%;
+  box-shadow: #3FA4A8 0 0 0 9px,#205BF1 0 0 0 10px;
+}
+
+/* Skills */
+#skills {
+  background-color: #47D9BF;
+}
+
+/* Portfolio */
+#portfolio {
+  background-color: #00A1D9;
+}
+#portfolio img {
+  width: 33%;
+  -webkit-box-shadow:  2px 3px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow:  2px 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact */
+#contact {
+  background-color: #F2D03B;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #000;
+  color: #fff;
+}
+.main-footer .networks li {
+  display: inline-block;
+}
+.main-footer .networks a {
+  background: transparent url(../images/social-sprites.png) top left no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
