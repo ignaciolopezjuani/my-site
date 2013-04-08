@@ -86,12 +86,56 @@ article h1{
 #portfolio {
   background-color: rgba(0, 161, 217, 0.6);
 }
+#portfolio article {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  display: block;
+  float: left;
+  margin: 0 0;
+}
+#portfolio article .wrap{
+  width: 300px;
+  height: 200px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.wrap-link {
+width: 300px;
+height: 200px;
+display: block;
+}
+.postimg {
+  width: 300px;
+height: 200px;
+display: block;
+overflow: hidden;
+position: relative;
+z-index: 5;
+}
+.postimg img {
+  position: relative;
+  left: -60px;
+}
+.post-text {
+  display: block;
+position: absolute;
+left: -220px;
+bottom: 0;
+z-index: 15;
+text-shadow: 0px 0px 8px #000;
+}
+.text-a {
+  display: block;
+padding-bottom: 28px
+}
 
-#portfolio img {
+/*#portfolio img {
   width: 33%;
   -webkit-box-shadow:  2px 3px 5px 5px rgba(0, 0, 0, 0.5);
   box-shadow:  2px 3px 5px 5px rgba(0, 0, 0, 0.5);
-}
+}*/
 
 /* Skills */
 #skills {
