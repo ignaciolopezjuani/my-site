@@ -73,7 +73,7 @@ section h1 {
 
 /* Skills */
 #skills {
-  background-color: #47D9BF;
+  background-color: rgba(71, 217, 191, 0.6);
 }
 #skills p,
 #skills ul {
@@ -82,7 +82,7 @@ section h1 {
 
 /* Portfolio */
 #portfolio {
-  background-color: #00A1D9;
+  background-color: rgba(0, 161, 217, 0.6);
 }
 #portfolio img {
   width: 33%;
@@ -97,7 +97,7 @@ section h1 {
 */
 /* Footer */
 .main-footer {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
 .main-footer .networks li {
