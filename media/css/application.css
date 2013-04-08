@@ -55,6 +55,7 @@ article h1{
 /* Header*/
 .main-header {
   background-color: rgba(0, 0, 0, 0.8);
+  height: 60px;
   padding: 0.5em 0 0.5em 0;
 }
 .main-header h1,
@@ -74,7 +75,19 @@ article h1{
 }
 nav h1 {
   float: left;
+  margin: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+
 }
+nav ul {
+  float: right;
+  margin: 12px;
+}
+
 
 
 /* Intro */
