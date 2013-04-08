@@ -12,8 +12,8 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="main-header">
+  <header class="main-header">
+    <div class="wrapper">
       <nav>
         <h1><a href="#">Ignacio L&oacute;pez Juan&iacute;</a></h1>
         <ul>
@@ -23,18 +23,22 @@
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <section id="intro">
+  <section id="intro">
+    <div class="wrapper">
       <h1>Hola!</h1>
       <img src="media/images/ignacio_lopez_juani.jpg" alt="Ignacio Lopez Juani">
 
-      <p>Soy Ignacio L&oacute;pez, tengo 28 años, vivo en Uruguay y soy <strong>Armador HTML-CSS.</strong></p>
+      <p class="highlight">Soy Ignacio L&oacute;pez</p>
+      <p>Tengo 28 años, vivo en Uruguay y soy maquetador HTML-CSS.</p>
       <p>Adem&aacute;s de estudiar por mi cuenta, finalic&eacute; el curso de <a href="http://cursosbios.com/disenador_sitios/">Diseñador Profesional de Sitios Web</a>en el <a href="http://www.biosportal.com/">Instituto Bios.</a></p>
-      <p>Estos son mis trabajos...</p>
-    </section>
+    </div>
+  </section>
 
-    <section id="portfolio">
+  <section id="portfolio">
+    <div class="wrapper">
       <h1>Porfolio</h1>
       <article>
           <img alt="Supde site" src="media/images/supde.jpg">
@@ -46,11 +50,12 @@
           <h1>Petranova</h1>
           <p>Sitio institucional de marmoler&iacute;a Petranova</p>
       </article>
-    </section>
+    </div>
+  </section>
 
-    <section id="skills">
+  <section id="skills">
+    <div class="wrapper">
       <h1>Habilidades</h1>
-      <p>Mis habilidades incluyen:</p>
       <ul>
         <li>HTML5 Y CSS3</li>
         <li>Jekyll</li>
@@ -63,9 +68,11 @@
 
       <p>Actualmente estoy estudiando jQuery y JavaScript</p>
       <p>En el mes de Julio voy a tomar un curso intensivo de <a href="http://fido.palermo.edu/servicios_dyc/escuela_plusdc/detalle_actividad.php?id_curso=93">Diseño de Interacci&oacute;n</a>en la <a href="http://www.palermo.edu/">Universidad de Palermo.</a></p>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact">
+  <section id="contact">
+    <div class="wrapper">
       <h1>Contacto</h1>
       <form>
         <div class="field">
@@ -82,9 +89,11 @@
         </div>
         <input type="submit" value="Enviar"/>
       </form>
-    </section>
+    </div>
+  </section>
 
-    <footer class="main-footer">
+  <footer class="main-footer">
+    <div class="wrapper">
       <ul class="networks">
         <li><a href="https://github.com/ignaciolopezjuani" target="_blank"><span>Github</span></a></li>
         <li><a href="http://www.facebook.com/ignacio.lopezjuani" target="_blank"><span>Facebook</span></a></li>
@@ -92,8 +101,8 @@
       </ul>
 
       <p>Sitio creado por: <a class="url fn" href="http://www.lopezjuani.com/" target="_blank">Ignacio L&oacute;pez Juan&iacute;</a></p>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
   <!-- Scripts -->
   <script src="media/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
