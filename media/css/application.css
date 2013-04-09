@@ -20,6 +20,16 @@ body {
 a {
   text-decoration: none;
 }
+p a {
+  color: #1B8DB2;
+  font-weight: bold;
+}
+p a:hover {
+  text-decoration: underline;
+}
+p a:visited {
+  color: #6E0DA1;
+}
 
 /* Layout */
 section,
@@ -55,8 +65,8 @@ article h1{
 /* Header*/
 .main-header {
   background-color: rgba(0, 0, 0, 0.8);
-  height: 60px;
-  padding: 0.5em 0 0.5em 0;
+  padding: 0.5em 0;
+  overflow: auto;
 }
 .main-header h1,
 .main-header ul,
@@ -73,24 +83,22 @@ article h1{
 .main-header a:hover {
   color: #fff;
 }
-nav h1 {
+.main-header h1 {
   float: left;
-  margin: 12px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-style: italic;
   letter-spacing: -0.05em;
   text-transform: uppercase;
-
 }
-nav ul {
+.main-header ul {
   float: right;
-  margin: 12px;
 }
-
-
 
 /* Intro */
+#intro p {
+  margin-bottom: 1em;
+}
 #intro img {
   height: 256px;
   width: 256px;
