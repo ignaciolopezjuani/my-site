@@ -173,7 +173,7 @@ article h1{
     padding: 10px 20px 20px;
     text-align: center;
 }
-#portfolio .view a.info {
+#portfolio .view .info {
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
