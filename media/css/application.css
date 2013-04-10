@@ -126,51 +126,145 @@ article h1{
 #portfolio .heading {
   color: #174b5d;
 }
-#portfolio article {
-  width: 300px;
-  height: 200px;
-  padding: 10px;
-  display: block;
-  float: left;
-  margin: 0 0;
+
+
+#portfolio .view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background-color: #fff;
 }
-#portfolio article .wrap{
-  width: 300px;
-  height: 200px;
-  display: block;
-  position: relative;
-  overflow: hidden;
+#portfolio .view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
-.wrap-link {
-  width: 300px;
-  height: 200px;
-  display: block;
+#portfolio .view img {
+    display: block;
+    position: relative;
 }
-.postimg {
-  width: 300px;
-  height: 200px;
-  display: block;
-  overflow: hidden;
-  position: relative;
-  z-index: 5;
+#portfolio .view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
 }
-.postimg img {
-  position: relative;
-  left: -60px;
+#portfolio .view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
 }
-.post-text {
-  display: block;
-  position: absolute;
-  left: -220px;
-  bottom: 0;
-  z-index: 15;
-  text-shadow: 0px 0px 8px #000;
+#portfolio .view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
 }
-.text-a {
-  display: block;
-  padding-bottom: 28px
+#portfolio .view a.info:hover {
+     -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
 }
 
+#portfolio .view-first img {
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+    transition: all 0.2s linear;
+}
+#portfolio .view-first .mask {
+    opacity: 0;
+    background-color: rgba(219,127,8, 0.7);
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+    transition: all 0.4s ease-in-out;
+}
+#portfolio .view-first h2 {
+    -moz-transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+    transition: all 0.2s ease-in-out;
+}
+#portfolio .view-first p {
+    -moz-transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(100px);
+    opacity: 0;
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+    transition: all 0.2s linear;
+}
+#portfolio .view-first a.info{
+    opacity: 0;
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+    transition: all 0.2s ease-in-out;
+}
+
+#portfolio .view-first:hover img {
+    -moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#portfolio .view-first:hover .mask {
+    opacity: 1;
+}
+#portfolio .view-first:hover h2,
+#portfolio .view-first:hover p,
+#portfolio .view-first:hover a.info {
+    opacity: 1;
+    -moz-transform: translateY(0px);
+-webkit-transform: translateY(0px);
+-o-transform: translateY(0px);
+-ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+#portfolio .view-first:hover p {
+    transition-delay: 0.1s;
+}
+#portfolio .view-first:hover a.info {
+    transition-delay: 0.2s;
+}
 
 /* Skills */
 #skills {
