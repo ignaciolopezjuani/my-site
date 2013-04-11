@@ -32,10 +32,6 @@ p a:visited {
 }
 
 /* Layout */
-section,
-footer {
-  padding: 60px 0;
-}
 header,
 section,
 footer {
@@ -43,13 +39,19 @@ footer {
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
+header {
+  padding: 0.5em 10%;
+}
+section,
+footer {
+  padding: 60px 10%;
+}
 article h1{
   color: #353535;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size:30px;
   letter-spacing: -0.05em;
-
 }
 .heading {
   color: #353535;
@@ -64,16 +66,10 @@ article h1{
     0 -1px 0 rgba(255, 255, 255, 1.0);
 }
 
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
 /* Header*/
 .main-header {
   font-family: 'Open Sans', sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 0.5em 0;
 }
 .main-header h1,
 .main-header ul,
