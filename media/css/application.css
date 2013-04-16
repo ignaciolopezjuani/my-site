@@ -122,8 +122,9 @@ article h1{
 #portfolio .heading {
   color: #174b5d;
 }
-
-
+#portfolio article {
+  max-width: 80%;
+}
 #portfolio .view {
     width: 300px;
     height: 200px;
@@ -345,27 +346,5 @@ article h1{
 }
 
 
-@media screen and (max-width: 1200px) {
-  section {
-    border: 10px solid red;
-  }
-}
 
-@media screen and (max-width: 1100px) {
-  section {
-    border: 10px solid purple;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  section {
-    border: 10px solid blue;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  section {
-    border: 10px solid green;
-  }
-}
 
