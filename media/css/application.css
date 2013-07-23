@@ -292,6 +292,10 @@ article h1{
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
+.main-footer .networks {
+  padding-bottom: 25px;
+}
+
 .main-footer .networks li {
   display: inline-block;
 }
